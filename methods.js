@@ -58,12 +58,14 @@ console.log(result);
 console.log('at method');
 // The at() method takes an integer value and returns the item at that index, allowing for positive and negative integrs. Negative integers count back from the last item in the array
 
-const array1 = [5,12,8,130,44];
+const array4 = [5,12,8,130,44];
 
 let index = 2;
 
-console.log(`Using an index of ${index} in the Array [${array1}] the item returned is ${array1.at(index)}`);
+console.log(`Using an index of ${index} in the Array [${array4}] the item returned is ${array4.at(index)}`);
 
 index = -2;
 
-console.log(`Using an index of ${index} in the Array [${array1}] the item returned is ${array1.at(index)}`);
+console.log(`Using an index of ${index} in the Array [${array4}] the item returned is ${array4.at(index)}`);
+
+console.log(array4.at(array4.length-1));
