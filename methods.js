@@ -45,14 +45,36 @@ console.log('2. Every method');
 
 const myArray = [1,,2,3,4,5,6,7,8,9];
 
+<<<<<<< HEAD
 console.log(myArray['1']);
 console.log('Keys : ',Object.keys(myArray))
 console.log('Values : ',Object.values(myArray))
+=======
+console.log(myArray['2']);
+console.log(Object.keys(myArray))
+console.log(Object.values(myArray))
+console.log(myArray['2'] !== myArray['02'])
+>>>>>>> 138145f (practice)
 
 console.log('every method'); 
 
 let result = myArray.every((x) => x>0);
 console.log(result);
 
+<<<<<<< HEAD
 console.log('3. Copy within');
 // copyWithin(target)
+=======
+console.log('at method');
+// The at() method takes an integer value and returns the item at that index, allowing for positive and negative integrs. Negative integers count back from the last item in the array
+
+const array1 = [5,12,8,130,44];
+
+let index = 2;
+
+console.log(`Using an index of ${index} in the Array [${array1}] the item returned is ${array1.at(index)}`);
+
+index = -2;
+
+console.log(`Using an index of ${index} in the Array [${array1}] the item returned is ${array1.at(index)}`);
+>>>>>>> 138145f (practice)
